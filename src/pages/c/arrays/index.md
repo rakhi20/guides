@@ -22,7 +22,7 @@ return 0;
 So... this looks a bit tedious.<br>Up until now every variable created had some special role. But right now, it would be great if we could just store multiple values in one place and get access to the values with their place in the line maybe (first value, second etc.). Also, we could use loops on them, which are things you will learn about later, but basically they do the same thing over and over again eg. reading from the user, or printing out values. 
 
 ## Arrays in C
-Arrays are containers with a given size. They contain variables of the **same type**. You can access a variable stored in the array with its *index*.
+Arrays are containers with a given size.It is a collection of data that holds fixed number of values of same type They contain variables of the **same type**. You can access a variable stored in the array with its *index*.
 Let's look at some code:
 ```C
 #include <stdio.h>
